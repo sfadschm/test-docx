@@ -1,0 +1,25 @@
+Purpose
+  This script iterates over all image objects in a pdf file and replaces
+  them by vector grafics stored in consecutively named pdf files in a
+  dedicated directory.
+
+Prerequisites
+  Expected directory structure
+    root
+      images
+        *.pdf
+      releases
+        *.pdf 
+      tools
+        py-pdf
+          vectorize.py
+    If the folder structure differs from this template,
+    the paths must be adjusted inside the script.
+
+  Required python packages
+    python3 -m pip install --upgrade pip
+    python3 -m pip install --upgrade pymupdf
+    python3 -m pip install --upgrade glob
+
+Usage (from within the "tools/py-pdf" directory)
+  python3 vectorize.py <filename="Example">

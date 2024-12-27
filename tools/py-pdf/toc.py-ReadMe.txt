@@ -1,0 +1,22 @@
+Purpose
+  This script iterates over the current "TOC" in a pdf file and refactors
+  the structure of bookmarks according to file-individual settings
+
+Prerequisites
+  Expected directory structure
+    root
+      releases
+        *.pdf 
+      tools
+        py-pdf
+          toc.py
+    If the folder structure differs from this template,
+    the paths must be adjusted inside the script.
+
+  Required python packages
+    python3 -m pip install --upgrade pip
+    python3 -m pip install --upgrade pymupdf
+    python3 -m pip install --upgrade glob
+
+Usage (from within the "tools/py-pdf" directory)
+  python3 toc.py <filename="Example">

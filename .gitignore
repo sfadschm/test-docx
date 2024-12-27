@@ -1,0 +1,31 @@
+# Temporary folders
+/*/temp/*
+
+# Arbitrary temporary files
+*.tmp
+
+# Symbolic links
+*.lnk
+
+# Microsoft Office temporary files
+~$*.doc*
+~$*.dot*
+~$*.xls*
+~$*.ppt*
+*.~vsd*
+
+# Microsoft Office backup files
+Backup of *.doc*
+*.xlk
+
+# Autodesk Inventor lock files
+*.lck
+
+# Working documents
+* WD.*
+
+# Pandoc executable
+tools/pandoc.exe
+
+# Python cache
+__pycache__

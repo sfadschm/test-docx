@@ -1,0 +1,6 @@
+Purpose
+  This VBA macro iterates over all linked image objects in the current Microsoft 
+  Word file, stores the image data in the file and breaks the external link.
+
+  This is espacially useful when releasing documents with linked image objects 
+  and sharing them without the linked objects (e.g., via Email).

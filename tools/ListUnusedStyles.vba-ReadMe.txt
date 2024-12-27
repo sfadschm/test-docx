@@ -1,0 +1,9 @@
+Purpose
+  This VBA macro iterates over all styles in the current document and checks 
+  whether the style is being used or not. If a style is not being used, its 
+  name will be printed to the debug console.
+
+  The console can be opened in the VBA window by pressing "Ctrl + G".
+
+  Note that styles used in headers and footer are not reliably detected in the 
+  current state of the macro. Always double check styles before removing them.

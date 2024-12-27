@@ -1,0 +1,11 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Convert MS Word to Markdown
+*.docx diff=docx
+
+# Convert MS PowerPoint to Markdown
+*.pptx diff=pptx
+
+# Convert PDF to Markdown
+*.pdf diff=pdf
